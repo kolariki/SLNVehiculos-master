@@ -13,11 +13,11 @@ namespace Entidades
         public int CantCanastos { get; set; }
         public Triciclo() { }
 
-        public Triciclo(string modelo, decimal velmax, string motor, string traccion, string tipo, string tipodeusuario, int cantcanastos) : base(modelo, velmax, motor, traccion, tipo)
+        public Triciclo(string modelo, decimal velmax, string motor, string traccion, string tipo, string tipoDeUsuario, int tipoDeUsuario) : base(modelo, velmax, motor, traccion, tipo)
         {
             
-            this.TipoDeUsuario = tipodeusuario;
-            this.CantCanastos = cantcanastos;
+            this.TipoDeUsuario = tipoDeUsuario;
+            this.CantCanastos = tipoDeUsuario;
         }
 
     }

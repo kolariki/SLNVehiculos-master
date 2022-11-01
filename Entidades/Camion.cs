@@ -13,10 +13,10 @@ namespace Entidades
         public string TipoDeCarga { get; set; }
         public Camion() { }
 
-        public Camion(string modelo, decimal velmax, string motor, string traccion, string tipo, decimal cargamax, string tipodecarga) : base(modelo, velmax, motor, traccion, tipo)
+        public Camion(string modelo, decimal velmax, string motor, string traccion, string tipo, decimal cargamax, string tipoDeCarga) : base(modelo, velmax, motor, traccion, tipo)
         {
             this.CargaMax = cargamax;
-            this.TipoDeCarga = tipodecarga; 
+            this.TipoDeCarga = tipoDeCarga; 
            
         }
     }

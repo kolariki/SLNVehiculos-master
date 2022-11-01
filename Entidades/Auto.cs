@@ -12,13 +12,14 @@ namespace Entidades
         public int Puertas { get; set; }
 
         public bool TechoDesc { get; set; }
+
         public Auto() { }
 
-        public Auto(string modelo, decimal velmax, string motor, string traccion,string tipo, int puertas, bool techodesc):base(modelo,velmax,motor,traccion,tipo)
+        public Auto(string modelo, decimal velMax, string motor, string traccion,string tipo, int puertas, bool techoDesc):base(modelo,velmax,motor,traccion,tipo)
         {
             this.Tipo = tipo;
             this.Puertas = puertas;
-            this.TechoDesc = techodesc;
+            this.TechoDesc = techoDesc;
         }
     }
 }
